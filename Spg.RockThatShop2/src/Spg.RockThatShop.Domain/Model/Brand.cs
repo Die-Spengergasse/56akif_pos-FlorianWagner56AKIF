@@ -26,7 +26,7 @@ namespace Spg.RockThatShop.Domain.Model
                 }
                 else
                 {
-                    _name = "UNKNOWN";
+                    _name = "Unknown";
                     this._abbreviation = "UNK";
                 }
             }
