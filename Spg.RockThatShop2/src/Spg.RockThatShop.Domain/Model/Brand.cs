@@ -14,24 +14,24 @@ namespace Spg.RockThatShop.Domain.Model
         { 
             get
             {
-                return this._name;
+                return _name;
             }
             set
             {
                 if (value.Length >= 3 && value != null)
                 {
-                    this._name = value;
-                    this.Abbreviation = value[..3].ToUpper();                 //range Parameter
+                    _name = value;
+                    Abbreviation = value[..3].ToUpper();                 //range Parameter
                     //this.Abbreviation = value.Substring(0, 3).ToUpper();    //alternative Way with String.Substring() Method
                 }
                 else
                 {
                     _name = "Unknown";
-                    this._abbreviation = "UNK";
+                    _abbreviation = "UNK";
                 }
             }
         }
-        private string _name = String.Empty;        
+        private string _name = string.Empty;        
 
         public string Abbreviation
         {   get 
@@ -40,9 +40,10 @@ namespace Spg.RockThatShop.Domain.Model
             }
             set
             {
-                this._abbreviation = this.Name.Substring(0, 3).ToUpper();
+                _abbreviation = this.Name.Substring(0, 3).ToUpper();
             }
         }
-        private string _abbreviation = String.Empty;
+        private string _abbreviation = string.Empty;
+        public List<MusicInstrument> MusicInstruments { get; set; } = default!;
     }
 }
