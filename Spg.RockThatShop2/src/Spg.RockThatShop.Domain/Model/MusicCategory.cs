@@ -5,6 +5,7 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
+        public List<InstrumentType> InstrumentTypes { get; set; } = default!;
         public List<MusicInstrument> MusicInstruments { get; set; } = default!;
     }
 }

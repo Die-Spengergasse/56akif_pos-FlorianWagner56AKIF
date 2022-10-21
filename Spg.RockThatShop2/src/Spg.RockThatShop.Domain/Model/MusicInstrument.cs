@@ -10,7 +10,8 @@
         public int NumberStrings { get; set; } = 0;
         public int NumberKeys { get; set; } = 0;
 
-        public List<MusicCategory> MusicCategories { get; set; } = default!;
+        public MusicCategory MusicCategory { get; set; } = default!;
+        public InstrumentType InstrumentType { get; set; } = default!;
         public Brand Brand { get; set; } = default!;
     }
 }
