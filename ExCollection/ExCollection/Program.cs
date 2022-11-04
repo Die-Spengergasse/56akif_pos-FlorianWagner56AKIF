@@ -34,7 +34,7 @@ namespace ExCollection.App
         // [JsonIgnore]
         // ein, damit der JSON Serializer das Objekt ausgeben kann.
         [JsonIgnore]
-        public Klasse KlasseNavigation { get; set; }
+        public Klasse KlasseNavigation { get; set; } = new();
         public int Id { get; set; }
         public string Zuname { get; set; } = string.Empty;
         public string Vorname { get; set; } = string.Empty;
