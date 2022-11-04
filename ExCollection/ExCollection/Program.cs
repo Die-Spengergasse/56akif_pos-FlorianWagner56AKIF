@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace ExCollection.App
 {
-    class Klasse
+    public class Klasse
     {
         // TODO: Erstelle ein Property Schuelers, welches alle Schüler der Klasse in einer
         //       Liste speichert.
@@ -26,7 +26,7 @@ namespace ExCollection.App
             }
         }
     }
-    class Schueler
+    public class Schueler
     {
         // TODO: Erstelle ein Property KlasseNavigation vom Typ Klasse, welches auf
         //       die Klasse des Schülers zeigt.
@@ -55,7 +55,7 @@ namespace ExCollection.App
         }
     }
 
-    class Program
+     public class Program
     {
         static void Main(string[] args)
         {
