@@ -8,7 +8,7 @@ namespace Spg.RockThatShop.Domain.Model
 {
     public class Brand
     {
-        public int Id { get; set; } //should have a global counter!!!
+        public int Id { get; private set; } //should have a global counter!!!
 
         public string Name
         { 
@@ -21,7 +21,7 @@ namespace Spg.RockThatShop.Domain.Model
                 if (value.Length >= 3 && value != null)
                 {
                     _name = value;
-                    Abbreviation = value[..3].ToUpper();                 //range Parameter
+                    Abbreviation = value[..3].ToUpper();                      //range Parameter
                     //this.Abbreviation = value.Substring(0, 3).ToUpper();    //alternative Way with String.Substring() Method
                 }
                 else
@@ -44,6 +44,6 @@ namespace Spg.RockThatShop.Domain.Model
             }
         }
         private string _abbreviation = string.Empty;
-        public List<MusicInstrument> MusicInstruments { get; set; } = default!;
+        public List<MusicInstrument> MusicInstruments { get; set; } = new();
     }
 }

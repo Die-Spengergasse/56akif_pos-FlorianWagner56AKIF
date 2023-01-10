@@ -11,6 +11,6 @@ namespace Spg.RockThatShop.Domain.Model
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public MusicCategory Category { get; set; } = default!;
-        public List<MusicInstrument> MusicInstruments { get; set; } = default!;
+        public List<MusicInstrument> MusicInstruments { get; set; } = new();
     }
 }

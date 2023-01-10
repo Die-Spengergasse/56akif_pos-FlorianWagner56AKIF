@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop.Domain", "src\Spg.RockThatShop.Domain\Spg.RockThatShop.Domain.csproj", "{A0755358-56A8-4415-8CFD-C18EBDB870EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop2.Domain", "src\Spg.RockThatShop.Domain\Spg.RockThatShop2.Domain.csproj", "{A0755358-56A8-4415-8CFD-C18EBDB870EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop2.Application", "Spg.RockThatShop2.Application\Spg.RockThatShop2.Application.csproj", "{CA9DC7BC-3E2E-4DBF-B6F4-409C27159E55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop2.Infrastructure", "src\Spg.RockThatShop2.Infrastructure\Spg.RockThatShop2.Infrastructure.csproj", "{8419E3C8-6E6E-412E-B657-65ADF9FCAA7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop2.Repository", "src\Spg.RockThatShop2.Repository\Spg.RockThatShop2.Repository.csproj", "{CD2DF13C-319D-4763-A9AF-A8E2BB114421}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spg.RockThatShop2.MVC", "src\Spg.RockThatShop2.MVC\Spg.RockThatShop2.MVC.csproj", "{E13EFF9B-2E14-4905-AE1A-9522F5450D06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.RockThatShop2.Domain.Test", "src\Spg.RockThatShop2.Domain.Test\Spg.RockThatShop2.Domain.Test.csproj", "{00CAA3A5-3E77-46BB-95CD-F8F5DFEBBE14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{A0755358-56A8-4415-8CFD-C18EBDB870EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0755358-56A8-4415-8CFD-C18EBDB870EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0755358-56A8-4415-8CFD-C18EBDB870EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9DC7BC-3E2E-4DBF-B6F4-409C27159E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9DC7BC-3E2E-4DBF-B6F4-409C27159E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9DC7BC-3E2E-4DBF-B6F4-409C27159E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9DC7BC-3E2E-4DBF-B6F4-409C27159E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8419E3C8-6E6E-412E-B657-65ADF9FCAA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8419E3C8-6E6E-412E-B657-65ADF9FCAA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8419E3C8-6E6E-412E-B657-65ADF9FCAA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8419E3C8-6E6E-412E-B657-65ADF9FCAA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2DF13C-319D-4763-A9AF-A8E2BB114421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2DF13C-319D-4763-A9AF-A8E2BB114421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2DF13C-319D-4763-A9AF-A8E2BB114421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2DF13C-319D-4763-A9AF-A8E2BB114421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13EFF9B-2E14-4905-AE1A-9522F5450D06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13EFF9B-2E14-4905-AE1A-9522F5450D06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13EFF9B-2E14-4905-AE1A-9522F5450D06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13EFF9B-2E14-4905-AE1A-9522F5450D06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CAA3A5-3E77-46BB-95CD-F8F5DFEBBE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CAA3A5-3E77-46BB-95CD-F8F5DFEBBE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CAA3A5-3E77-46BB-95CD-F8F5DFEBBE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CAA3A5-3E77-46BB-95CD-F8F5DFEBBE14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

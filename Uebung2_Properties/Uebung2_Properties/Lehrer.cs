@@ -9,14 +9,14 @@ namespace Uebung2_Properties
     internal class Lehrer
     {
         private decimal? _bruttogehalt = null;
-        public string? Zuname { get; set; }
+        public string? Zuname { get; set; } = string.Empty;
         public string Vorname { get; set; } = "";
         public decimal? Bruttogehalt
         {
             get { return _bruttogehalt; } // ich hätte besser gefunden: get { return _bruttogehalt ?? 0; } ,da hier gleich eine 
                                           // Prüfung stattfindet für evtl. nachfolgende Methoden
             set { 
-                if (_bruttogehalt == null) { 
+                if (_bruttogehalt is null) { 
                     _bruttogehalt = value;
                 }
             }
